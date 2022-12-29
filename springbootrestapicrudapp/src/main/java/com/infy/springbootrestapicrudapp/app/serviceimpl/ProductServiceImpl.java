@@ -31,7 +31,6 @@ public class ProductServiceImpl implements ProductServiceI{
 
 	@Override
 	public void updateProductData(Product p1) {
-		
 		pr.save(p1);
 	}
 }
